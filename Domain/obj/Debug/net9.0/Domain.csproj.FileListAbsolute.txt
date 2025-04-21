@@ -1,0 +1,11 @@
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/bin/Debug/net9.0/Domain.deps.json
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/bin/Debug/net9.0/Domain.dll
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/bin/Debug/net9.0/Domain.pdb
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/Domain.AssemblyInfoInputs.cache
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/Domain.AssemblyInfo.cs
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/Domain.csproj.CoreCompileInputs.cache
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/Domain.dll
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/refint/Domain.dll
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/Domain.pdb
+/Users/tomtim/Documents/projectsOnMac/Zoo/Domain/obj/Debug/net9.0/ref/Domain.dll

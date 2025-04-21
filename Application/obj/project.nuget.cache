@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "W4a7Ct5dJWc=",
+  "success": true,
+  "projectFilePath": "/Users/tomtim/Documents/projectsOnMac/Zoo/Application/Application.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomtim/.nuget/packages/microsoft.openapi/1.6.23/microsoft.openapi.1.6.23.nupkg.sha512",
+    "/Users/tomtim/.nuget/packages/swashbuckle.aspnetcore.annotations/8.1.1/swashbuckle.aspnetcore.annotations.8.1.1.nupkg.sha512",
+    "/Users/tomtim/.nuget/packages/swashbuckle.aspnetcore.swagger/8.1.1/swashbuckle.aspnetcore.swagger.8.1.1.nupkg.sha512",
+    "/Users/tomtim/.nuget/packages/swashbuckle.aspnetcore.swaggergen/8.1.1/swashbuckle.aspnetcore.swaggergen.8.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

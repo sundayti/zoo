@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Presentation</name>
+    </assembly>
+    <members>
+        <member name="M:Presentation.Controllers.AnimalsController.GetAll">
+            <summary>
+            Retrieve all animals.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.Get(System.Guid)">
+            <summary>
+            Retrieve a specific animal by its ID.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.Create(Application.DTOs.CreateAnimalDto)">
+            <summary>
+            Create a new animal.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.MarkSick(System.Guid)">
+            <summary>
+            Mark an animal as sick.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.Treat(System.Guid)">
+            <summary>
+            Heal an animal.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.Delete(System.Guid)">
+            <summary>
+            Delete an animal by its ID.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.Transfer(System.Guid,System.Guid)">
+            <summary>
+            Transfer an animal to another enclosure.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.AnimalsController.TryAssignToEnclosure(Domain.Entities.Animal,Domain.ValueObjects.EnclosureId)">
+            <summary>
+            Helper: try to assign an animal to an enclosure, ignoring errors if full or not found.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.EnclosuresController.GetAll">
+            <summary>
+            Get all enclosures.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.EnclosuresController.Get(System.Guid)">
+            <summary>
+            Get a specific enclosure by its ID.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.EnclosuresController.Create(Application.DTOs.CreateEnclosureDto)">
+            <summary>
+            Create a new enclosure.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.EnclosuresController.Delete(System.Guid)">
+            <summary>
+            Delete an enclosure and free all animals in it.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.FeedingScheduleController.Get(System.Nullable{System.DateTimeOffset})">
+            <summary>
+            Retrieve feeding schedules.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.FeedingScheduleController.Schedule(Application.DTOs.CreateFeedingScheduleDto)">
+            <summary>
+            Create a new feeding schedule entry.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.FeedingScheduleController.Complete(System.Guid)">
+            <summary>
+            Mark a feeding schedule entry as completed.
+            </summary>
+        </member>
+        <member name="M:Presentation.Controllers.StatisticsController.Get">
+            <summary>
+            Retrieve current zoo statistics.
+            </summary>
+            <returns>
+            Statistics including total number of animals, total enclosures,
+            occupied enclosures, and free enclosures.
+            </returns>
+        </member>
+        <member name="M:Presentation.Mappers.MappingExtensions.ToDomain(Application.DTOs.CreateAnimalDto)">
+            <summary>
+            Преобразует CreateAnimalDto в доменную сущность Animal.
+            </summary>
+        </member>
+        <member name="M:Presentation.Mappers.MappingExtensions.ToDto(Domain.Entities.Animal)">
+            <summary>
+            Преобразует доменную сущность Animal в AnimalDto.
+            </summary>
+        </member>
+        <member name="M:Presentation.Mappers.MappingExtensions.ToDto(Domain.Entities.Enclosure)">
+            <summary>
+            Преобразует доменную сущность Enclosure в EnclosureDto.
+            </summary>
+        </member>
+        <member name="M:Presentation.Mappers.MappingExtensions.ToDomain(Application.DTOs.CreateEnclosureDto)">
+            <summary>
+            Преобразует CreateEnclosureDto в доменную сущность Enclosure.
+            </summary>
+        </member>
+        <member name="M:Presentation.Mappers.MappingExtensions.ToDto(Domain.Entities.FeedingSchedule)">
+            <summary>
+            Преобразует доменную сущность FeedingSchedule в FeedingScheduleDto.
+            </summary>
+        </member>
+    </members>
+</doc>

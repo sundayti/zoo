@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "9DgmVvjGuio=",
+  "success": true,
+  "projectFilePath": "/Users/tomtim/Documents/projectsOnMac/Zoo/Infrastructure/Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "/Users/tomtim/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.4/microsoft.extensions.dependencyinjection.9.0.4.nupkg.sha512",
+    "/Users/tomtim/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.4/microsoft.extensions.dependencyinjection.abstractions.9.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}
